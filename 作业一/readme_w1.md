@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7530a02e-f5c3-44ae-aaef-a58778fcb265)# 机器学习中的聚类模型
+# 机器学习中的聚类模型
 
 聚类（clustering）是一项机器学习任务，用于寻找类似对象并将他们分成不同的组（这些组称做“聚类”（cluster））。聚类与其它机器学习方法的不同之处在于聚类是自动进行的。事实上，我们可以说它是监督学习的对立面。
 
