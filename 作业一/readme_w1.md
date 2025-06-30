@@ -4,7 +4,7 @@
 
 ## 本节主题: 尼日利亚观众音乐品味的聚类模型🎧
 
-尼日利亚多样化的观众有着多样化的音乐品味。使用从 Spotify 上抓取的数据（受到[本文](https://towardsdatascience.com/country-wise-visual-analysis-of-music-taste-using-spotify-api-seaborn-in-python-77f5b749b421)的启发），让我们看看尼日利亚流行的一些音乐。这个数据集包括关于各种歌曲的舞蹈性、声学、响度、言语、流行度和活力的分数。从这些数据中发现一些模式（pattern）会是很有趣的事情!
+尼日利亚多样化的观众有着多样化的音乐品味。使用从 Spotify 上抓取的数据，让我们看看尼日利亚流行的一些音乐。这个数据集包括关于各种歌曲的舞蹈性、声学、响度、言语、流行度和活力的分数。从这些数据中发现一些模式（pattern）会是很有趣的事情!
 
 ![A turntable](../images/turntable.jpg)
 
