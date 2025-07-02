@@ -4,7 +4,7 @@
 
 ## 本节主题: 尼日利亚观众音乐品味的聚类模型🎧
 
-尼日利亚多样化的观众有着多样化的音乐品味。使用从 Spotify 上抓取的数据（受到[本文](https://towardsdatascience.com/country-wise-visual-analysis-of-music-taste-using-spotify-api-seaborn-in-python-77f5b749b421)的启发），让我们看看尼日利亚流行的一些音乐。这个数据集包括关于各种歌曲的舞蹈性、声学、响度、言语、流行度和活力的分数。从这些数据中发现一些模式（pattern）会是很有趣的事情!
+尼日利亚多样化的观众有着多样化的音乐品味。使用从 Spotify 上抓取的数据，让我们看看尼日利亚流行的一些音乐。这个数据集包括关于各种歌曲的舞蹈性、声学、响度、言语、流行度和活力的分数。从这些数据中发现一些模式（pattern）会是很有趣的事情!
 
 ![A turntable](../images/turntable.jpg)
 
@@ -50,7 +50,8 @@ K-Means 聚类在处理高维数据时可能会面临一些挑战，例如“维
 5. **结果分析**：分析每个聚类的特征，了解不同音乐品味群体的喜好。
 
 # 音乐风格聚类
-
+![image](https://github.com/user-attachments/assets/22645674-7a41-4118-a7a6-fa9bf1b08d0d)
+![image](https://github.com/user-attachments/assets/a1957c93-be4b-4f79-8908-a2b74fef6295)
 ### 一、聚类分布：类型A主导，小众类型特征鲜明  
 饼图直观呈现音乐类型占比：  
 - **类型A（聚类0）** 以 **361个样本、68.1%占比** 绝对主导，是平台最热门音乐类型基础盘，歌曲数量最多。  
@@ -96,6 +97,10 @@ K-Means 聚类在处理高维数据时可能会面临一些挑战，例如“维
 **总结**：该平台音乐类型呈“大众主导 + 小众细分”格局，4大特征清晰刻画类型差异。运营可围绕“主流维稳、小众深耕”策略，用特征标签优化推荐、内容生产，提升用户听歌匹配度与平台内容丰富度，后续可补充小众类型数据、优化聚类算法，进一步挖掘细分场景价值 。
 
 # 歌手聚类和分析
+![image](https://github.com/user-attachments/assets/2aa2726f-77f2-4063-968c-615ab42629cf)
+![image](https://github.com/user-attachments/assets/ca2b1bc4-d4b2-4043-a3ec-e5559e3b1617)
+![image](https://github.com/user-attachments/assets/5acbaf29-1f20-4642-addc-7e17fb852cf3)
+
 ### 一、聚类特征对比表（标准化值）
 | 特征维度          | 聚类0       | 聚类1       | 聚类2       | 聚类3       |
 |-------------------|-------------|-------------|-------------|-------------|
