@@ -16,5 +16,6 @@
 | matplotlib | seaborn |
 | -------- | --------- |
 | ![matplotlib](https://matplotlib.org/stable/_static/logo_light.svg)| ![seaborn](https://seaborn.pydata.org/_static/logo-wide-lightbg.svg) |
-|![matplotlib示例页面](.\image\matplotlib示例页面.png)|![seaborn示例页面](.\image\seaborn示例页面.png)|
+|![matplotlib示例页面](./image/matplotlib_shili_wep.png)|![seaborn示例页面](./image/seaborn_shili_wep.png)|
+
 |[matplotlib示例图库链接](https://matplotlib.org/stable/gallery/index.html)|[seaborn示例图库链接](https://seaborn.pydata.org/examples/index.html)|
