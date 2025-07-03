@@ -8,19 +8,19 @@
 
 ## 1. 作业一
 > [提交位置](https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=253767533&classId=124118745&cpi=280156959&workId=44359565&answerId=54363286&standardEnc=0a52e9eeba5c2d6967e5ec398d89fab9&enc=f283828ba36bb61ea17f8f855f5266f9)
-> [文档存放位置]()
+> [文档存放位置](https://github.com/liushisi7/liushisi7_xiaoxueqi_renmeng/tree/main/%E4%BD%9C%E4%B8%9A%E4%B8%80)
 
 ## 2. 作业二
-> [提交位置]()
-> [文档存放位置]()
+> [提交位置](https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=253767533&classId=124118745&cpi=280156959&workId=44450923&answerId=54373535&standardEnc=13b2ba92778b5b1a52609851626b8065&enc=303e8eb2da0d2aa29f6727304cfd8552)
+> [文档存放位置](https://github.com/liushisi7/liushisi7_xiaoxueqi_renmeng/tree/main/%E4%BD%9C%E4%B8%9A%E4%BA%8C)
 
 ## 3. 作业三
 > [提交位置]()
-> [文档存放位置]()
+> [文档存放位置](https://github.com/liushisi7/liushisi7_xiaoxueqi_renmeng/tree/main/%E4%BD%9C%E4%B8%9A%E4%B8%89)
 
 ## 4. 作业四
 > [提交位置]()
-> [文档存放位置]()  
+> [文档存放位置](https://github.com/liushisi7/liushisi7_xiaoxueqi_renmeng/tree/main/%E4%BD%9C%E4%B8%9A%E5%9B%9B)  
 
 ## 其他
 > 存放部分学习过程中产生的杂乱测试学习文件
