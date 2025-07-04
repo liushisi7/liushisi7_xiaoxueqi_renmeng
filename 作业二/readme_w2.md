@@ -53,8 +53,8 @@ Seaborn 是基于 Matplotlib 的高级统计可视化库，专注于展示数据
 
 |Seaborn|Matplotlib|
 | -------- | --------- |
-|![Seaborn：](image\variety_price_comparison.png)|![matplotlib：](image\matplotlib_variety_price_comparison.png.png)|
-|![sns代码](image\sns_dm.png)|![mpl代码](image\m_dm.png)|
+|![Seaborn：](./image\variety_price_comparison.png)|![matplotlib：](./image\matplotlib_variety_price_comparison.png.png)|
+|![sns代码](./image\sns_dm.png)|![mpl代码](./image\m_dm.png)|
 
 
 
