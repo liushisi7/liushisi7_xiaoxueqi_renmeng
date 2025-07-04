@@ -18,7 +18,7 @@
 | -------- | --------- |
 | ![matplotlib](https://matplotlib.org/stable/_static/logo_light.svg)| ![seaborn](https://seaborn.pydata.org/_static/logo-wide-lightbg.svg) |
 |![matplotlib示例页面](./image/matplotlib_shili_wep.png)|![seaborn示例页面](./image/seaborn_shili_wep.png)|
-|[matplotlib示例图库链接](https://matplotlib.org/stable/gallery/index.html)|[seaborn示例图库链接](https://seaborn.pydata.org/examples/index.html)|
+|[matplotlib官方示例图库链接地址](https://matplotlib.org/stable/gallery/index.html)|[seaborn官方示例图库链接地址](https://seaborn.pydata.org/examples/index.html)|
 
 ##  <center>Matplotlib 和 Seaborn 的核心对比</center>
 >**Matplotlib** 是**基础工具**，适合需要精确控制的专业场景。**Seaborn** 是**效率工具**，适合快速生成统计图表的数据分析场景。
