@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\21576\\Desktop\\2025\u5C0F\u5B66\u671F\\liushisi7_xiaoxueqi_renmeng\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\21576\\Desktop\\2025\u5C0F\u5B66\u671F\\liushisi7_xiaoxueqi_renmeng\\\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6570\u636E\u63A2\u7D22.ipynb",
+              "DocumentMoniker": "C:\\Users\\21576\\Desktop\\2025\u5C0F\u5B66\u671F\\liushisi7_xiaoxueqi_renmeng\\\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb",
+              "RelativeDocumentMoniker": "\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb",
+              "ToolTip": "C:\\Users\\21576\\Desktop\\2025\u5C0F\u5B66\u671F\\liushisi7_xiaoxueqi_renmeng\\\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb",
+              "RelativeToolTip": "\u4F5C\u4E1A\u4E00\\\u6570\u636E\u63A2\u7D22.ipynb",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-09T14:26:56.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
