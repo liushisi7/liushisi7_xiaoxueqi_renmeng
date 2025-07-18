@@ -21,44 +21,17 @@ warnings.filterwarnings('ignore') # 忽略所有警告
 :raise <异常名称>: <异常描述>
 '''
 
-def data_rename(data):
-    '''
-    重新命名列名，帮助我这个不会英语的人更好理解数据
-    :param data: 待处理的数据
-    :return: 重新命名后的数据'''
-    # 检查列名
-    print(data.columns.tolist())
-    # 创建英文列名到中文列名的映射字典
-    column_mapping = {'City Name': '城市名称','Type': '类型','Package': '包装','Variety': '品种','Sub Variety': '子品种','Grade': '等级','Date': '日期','Low Price': '最低价格','High Price': '最高价格','Mostly Low': '主要最低价','Mostly High': '主要最高价', 'Origin': '产地','Origin District': '产地区域','Item Size': '物品尺寸','Color': '颜色','Environment': '环境','Unit of Sale': '销售单位','Quality': '质量','Condition': '状况','Appearance': '外观','Storage': '储存','Crop': '作物','Repack': '重新包装','Trans Mode': '运输模式','Unnamed: 24': '未命名: 24','Unnamed: 25': '未命名: 25'}
-    # 替换DataFrame的列名
-    data.rename(columns=column_mapping, inplace=True)
-    return data
-def date_chuli0(data):
-    '''
-    将日期列转换为日期格式
-    :param data:
-    :return:日期格式化后的数据
-    '''
-    # data_rename(data)
-    # 将日期列转换为日期格式
-    data['日期'] = pd.to_datetime(data['日期'], format='%m/%d/%y')
-    data["年份"] = data['日期'].dt.year
-    data["月份"] = data['日期'].dt.month
-    data["日"] = data['日期'].dt.day
-    data["星期"] = data['日期'].dt.weekday
-    data.drop(columns=['日期'], inplace=True)
-    data['均价']= (data['最低价格'] + data['最高价格']) / 2
-    return data
+from data_tezheng import date_chuli0,data_rename
 
 def str_data_show(data, column_name):
     '''
     此函数用于对str类标签，离散数据进行统计和绘图，便于快速理解数据
-
     '''
     # 统计每个标签/子属性的数量分布 
     data[column_name].value_counts()
-
     pass
+
+
 def data_show_gaikuang(data):
     '''
     数据探索性分析
@@ -575,7 +548,7 @@ def data_show_wenti(data):
 if __name__ == '__main__':
     # 读取数据
     data =pd.read_csv(r'../data/US-pumpkins.csv')
-    data = date_chuli0(data)
+    data = date_chuli0(data_rename(data))
     data_show_gaikuang(data)
     # data_show_wenti(data)
 
