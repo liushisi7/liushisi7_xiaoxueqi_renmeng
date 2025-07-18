@@ -45,7 +45,7 @@ param_grid = {
     'RandomForestRegressor': 
     {'regressor__n_estimators': [10, 50, 100], 'regressor__max_depth': [None, 10, 20], 'regressor__min_samples_split': [2, 5, 10], 'regressor__min_samples_leaf': [1, 2, 4]},
     'LightGBM':
-    {'regressor__n_estimators': [10, 50, 100], 'regressor__learning_rate': [0.01, 0.1, 1.0], 'regressor__max_depth': [-1, 10, 20], 'regressor__min_child_samples': [1, 5, 20]},
+    {'regressor__n_estimators': [10, 50, 100], 'regressor__learning_rate': [0.01, 0.1, 1.0], 'regressor__max_depth': [5, 10, 20], 'regressor__min_child_samples': [1, 5, 20]},
     'XGBoost':
     {'regressor__n_estimators': [10, 50, 100], 'regressor__learning_rate': [0.01, 0.1, 1.0], 'regressor__max_depth': [3, 6, 9], 'regressor__min_child_weight': [1, 3, 5]}
 }
@@ -58,17 +58,7 @@ models = {
     'LightGBM': lightgbm.LGBMRegressor,
     'XGBoost': xgboost.XGBRegressor
 }
-# nominal_features = ['城市名称', '包装', '品种', '产地']
-# ordinal_features = ['物品尺寸']
-# ordinal_features_zd = {'物品尺寸': ['sml', 'med', 'med-lge', 'lge', 'xlge', 'jbo', 'exjbo']}
-nominal_features = ['城市名称', '包装', '品种', '产地','物品尺寸']  
-# 创建预处理器
-preprocessor = pipeline_preprocessor_ColumnTransformer(
-        # numerical_features=numerical_features, 
-        nominal_features=nominal_features, 
-        # ordinal_features=ordinal_features,
-        # ordinal_features_zd=ordinal_features_zd
-    )
+
 
 
 best_params = {}
@@ -77,7 +67,7 @@ best_params = {}
 for model_name, model_class in models.items():
     if model_name in param_grid:
         model = model_pipeline(model_class())#管道中包含了预处理和模型
-        grid_search = GridSearchCV(model, param_grid[model_name], cv=5, scoring='r2')
+        grid_search = GridSearchCV(model, param_grid[model_name], cv=3, scoring='r2')
         grid_search.fit(X, y)
         best_params[model_name] = grid_search.best_params_
         print(f"{model_name} 最佳参数: {grid_search.best_params_}")

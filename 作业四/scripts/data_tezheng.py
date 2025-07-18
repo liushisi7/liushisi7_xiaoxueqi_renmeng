@@ -84,7 +84,7 @@ def data_tezheng(data):
     data=data[[ '月份', '星期', '物品尺寸', '包装', '品种', '产地','城市名称','均价']]
     # 去除其他无法填充，依旧存在空值的记录
     data = data.dropna(axis=0, how='any')
-    # !!!!! 对重复的记录进行处理，去除重复的记录，保留一条记录（此处取均值）!!!!!
+    # !!!!! 对重复的记录进行处理，去除重复的记录，保留一条记录（此处取均值）!!!!!----使用后数据量大幅度下降
     # data=data.groupby(['月份', '星期', '物品尺寸', '包装', '品种', '产地','城市名称'], as_index=False).mean()
     # y=data['均价']
     # x=data.drop(columns=['均价'])
@@ -194,10 +194,5 @@ if __name__ == '__main__':
     transformed_df = pd.DataFrame(transformed_data, columns=transformed_columns)
     print(transformed_df.head())
 
-    # lgbmr模型训练
-    import lightgbm as lgb
-    lgbmr_model = lgb.LGBMRegressor()
-    lgbmr_model.fit(transformed_df, data['均价'])
-    # 模型效果
-    print('模型效果：',lgbmr_model.score(transformed_df, data['均价']))
+
     
