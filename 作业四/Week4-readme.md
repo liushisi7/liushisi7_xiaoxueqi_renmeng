@@ -52,8 +52,7 @@ if __name__ == '__main__':
 #### （3）实验结果汇总
 
 `models/model_summary_results.csv` 文件包含了所有模型的汇总评估结果，包括 R²、RMSE、MAE 和 MAPE 的均值和标准差。
-
-![1752900266944](https://file+.vscode-resource.vscode-cdn.net/c%3A/Users/21576/Desktop/2025%E5%B0%8F%E5%AD%A6%E6%9C%9F/liushisi7_xiaoxueqi_renmeng/%E4%BD%9C%E4%B8%9A%E5%9B%9B/image/Week4-readme/1752900266944.png)
+![1752911783681](image/Week4-readme/1752911783681.png)
 
 #### （4）单轮实验和样本分析
 以`LGBR`为例，在`models/LGBMRegressor_20250719`文件夹下，有`LGBMRegressor_20250719_predictions.csv`，
