@@ -58,7 +58,7 @@ if __name__ == '__main__':
 #### （4）单轮实验和样本分析
 以`LGBR`为例，在`models/LGBMRegressor_20250719`文件夹下，有`LGBMRegressor_20250719_predictions.csv`，
 
-|![实际值 vs 预测值图](.\models\LGBMRegressor_20250719\plots\LGBMRegressor_actual_vs_predicted.png)|![1752904731405](image/Week4-readme/1752904731405.png)|![1752904923042](image/Week4-readme/1752904923042.png)|![1752904907414](image/Week4-readme/1752904907414.png)|
+|![实际值 vs 预测值图](models/LGBMRegressor_20250719/plots/LGBMRegressor_actual_vs_predicted.png)|![1752904731405](image/Week4-readme/1752904731405.png)|![1752904923042](image/Week4-readme/1752904923042.png)|![1752904907414](image/Week4-readme/1752904907414.png)|
 |:--------------:|:-----------:|:-------------:|:------------:|
 
 **分类变量分析**
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 #### （1）随机森林，随机选一颗树，提交树结构
 
 在 `show_jieguo_fx.py` 中的 `plot_tree_visualization` 函数会绘制随机森林的第一棵完整树，并保存为 PNG 文件。运行 `main.py` 后，在对应的模型目录下的 `plots` 文件夹中可以找到 `RandomForestRegressor_single_tree_complete.png` 文件。
- ![1752900456531](models\RandomForestRegressor_20250719\plots\RandomForestRegressor_single_tree_complete.png)
+ ![1752900456531](models/RandomForestRegressor_20250719/plots/RandomForestRegressor_single_tree_complete.png)
 
 #### （2）解释从树根到叶子节点的分支含义
 
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 ###### SHAP可视化解释模型
 
-| ![shap值分布](.\models\RandomForestRegressor_20250719\plots\RandomForestRegressor_shap_summary_bee.png) | ![shap特征重要性](.\models\RandomForestRegressor_20250719\plots\RandomForestRegressor_shap_summary_bar.png) |
+| ![shap值分布](models/RandomForestRegressor_20250719/plots/RandomForestRegressor_shap_summary_bee.png) | ![shap特征重要性](models/RandomForestRegressor_20250719/plots/RandomForestRegressor_shap_summary_bar.png) |
 | :---------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
 
 要分析这张**RandomForestRegressor的SHAP值分布图**，我们需要从**特征重要性、特征值对模型输出的影响方向、特征内部差异**三个维度展开，结合SHAP图的核心逻辑（SHAP值表示特征对模型输出的“边际贡献”，红色代表高特征值、蓝色代表低特征值）进行解读：
