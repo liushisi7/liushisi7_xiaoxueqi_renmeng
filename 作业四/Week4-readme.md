@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
 * 具体的各个模型的每次的结果评价在每个模型文件夹下的 results文件，如图为GradientBoostingRegressor的展示
 
-  ![1752900456531](image/Week4-readme/1752900456531.png)
+![1752900456531](image/Week4-readme/1752900456531.png)
 
 #### （3）实验结果汇总
 
