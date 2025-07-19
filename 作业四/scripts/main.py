@@ -16,7 +16,7 @@ from data_tezheng import data_tezheng,data_rename,date_chuli0
 from model import *
 from show_jieguo_fx import *
 
-# run_all_list_models和主函数保持不变
+# run_all_list_models和主函数
 def run_all_list_models(X, y):
     model_configs = get_model_list()
     best_score = -float('inf')

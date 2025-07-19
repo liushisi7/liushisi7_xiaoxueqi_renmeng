@@ -2,7 +2,7 @@
 结果可视化图表
 """
 
-# 导入常用库（保持不变）
+# 导入常用库
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -16,12 +16,12 @@ import xgboost as xgb
 import lightgbm as lgb
 import warnings
 
-# 设置显示中文（保持不变）
+# 设置显示中文
 plt.rcParams['font.sans-serif'] = ['SimHei', 'WenQuanYi Micro Hei', 'Heiti TC']
 plt.rcParams['axes.unicode_minus'] = False
 warnings.filterwarnings('ignore')
 
-# 导入模型和评估工具（保持不变）
+# 导入模型和评估工具
 from sklearn.model_selection import train_test_split, KFold
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
@@ -32,7 +32,7 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 
-# 从自定义模块导入数据处理函数（保持不变）
+# 从自定义模块导入数据处理函数
 from data_tezheng import pipeline_preprocessor_ColumnTransformer, date_chuli0, data_rename, data_tezheng
 
 
@@ -83,7 +83,7 @@ def plot_feature_importance(model, preprocessor, model_name, plots_dir, is_tree_
     plt.close()
     print(f"特征重要性图已保存")
 
-# 只绘制部分单棵完整树（从输入到结果）
+# 只绘制部分模型的单棵完整树
 def plot_tree_visualization(model, model_name, model_type, preprocessor, plots_dir):
         
     # 获取特征名称
@@ -133,7 +133,7 @@ def plot_tree_visualization(model, model_name, model_type, preprocessor, plots_d
     else:
         print(f"暂时绘制{model_name}的树结构可视化未实现")
 
-# SHAP值和部分依赖图函数保持不变
+# SHAP值和部分依赖图函数
 def plot_shap_values(model, X_sample, preprocessor, model_name, plots_dir, is_tree_based):
     if not is_tree_based:
         print(f"{model_name} 不是树模型，跳过SHAP值计算")
